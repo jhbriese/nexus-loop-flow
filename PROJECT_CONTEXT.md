@@ -150,7 +150,7 @@ Der letzte Auftrag ist dieser Export, kein neuer Funktionsauftrag.
 
 ## Umrechnung – maßgeblich ist die beigefügte Nutzeranleitung
 
-In `references/Barrow_SLF_V3_Anleitung.png`, Punkt 5, steht ausdrücklich:
+In der Barrow-SLF-V3-Anleitung (lokal unter `references/`, nicht im Repository), Punkt 5, steht ausdrücklich:
 **98 IMP/L** und im Beispiel **angezeigte Drehzahl geteilt durch 98 ergibt L/min**.
 Das Widget folgt exakt dieser vom Nutzer bereitgestellten Umrechnungsanweisung:
 
