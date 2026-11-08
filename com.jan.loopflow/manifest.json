@@ -1,0 +1,47 @@
+{
+  "schema": "nexus.app/1",
+  "id": "com.jan.loopflow",
+  "name": "Loop Flow",
+  "version": "1.3.2",
+  "description": "Wasserkühlung: Pumpenwerte, Durchfluss und Wassertemperatur. Konfiguration: Nexus-Seitenleiste → Mehr anzeigen → Loop Flow.",
+  "author": {
+    "name": "Jan / Custom Widget"
+  },
+  "runtime": "sdk",
+  "surfaces": [
+    "y70",
+    "desktop",
+    "monitor"
+  ],
+  "sizes": [
+    "4x2",
+    "4x4"
+  ],
+  "default_size": "4x4",
+  "freeform": true,
+  "icon": "icon.svg",
+  "renderers": [
+    "renderer.mjs"
+  ],
+  "capabilities": {
+    "sensors.read": [],
+    "rgb.read": false,
+    "rgb.write": false,
+    "net.fetch": [],
+    "dispatch": [
+      "cooling.state"
+    ],
+    "config": true,
+    "code": "worker",
+    "appData": true
+  },
+  "settings": [
+    {
+      "key": "configurationHelp",
+      "type": "icon-select",
+      "label": "Die Einstellungen für Quellen, Wassertemperatur und Darstellung findest du am PC in der Nexus-Seitenleiste unter Mehr anzeigen → Loop Flow. Änderungen werden dort automatisch gespeichert.",
+      "options": []
+    }
+  ],
+  "page": true
+}

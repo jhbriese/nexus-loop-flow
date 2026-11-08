@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <title>Loop Flow – Pumpenrad</title>
+  <!-- Transparent negative space keeps the impeller legible in Nexus's sidebar mask. -->
+  <circle cx="12" cy="12" r="10" stroke="#60d5f5" stroke-width="1.5"/>
+  <g fill="#60d5f5">
+    <path id="blade" d="M12.7 8.7C14.7 7.9 15.6 6.3 15.2 4.5C17.2 5.4 18.7 7.1 19.4 9.2C17.6 8.6 15.9 9.1 14.6 10.2Z"/>
+    <use href="#blade" transform="rotate(60 12 12)"/>
+    <use href="#blade" transform="rotate(120 12 12)"/>
+    <use href="#blade" transform="rotate(180 12 12)"/>
+    <use href="#blade" transform="rotate(240 12 12)"/>
+    <use href="#blade" transform="rotate(300 12 12)"/>
+    <circle cx="12" cy="12" r="1.75"/>
+  </g>
+</svg>

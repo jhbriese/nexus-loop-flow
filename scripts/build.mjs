@@ -1,0 +1,10 @@
+import { existsSync } from 'node:fs';
+import { createRequire } from 'node:module';
+import { join } from 'node:path';
+import { root, app, sdkCli, run } from './paths.mjs';
+if(!existsSync(sdkCli))throw new Error('SDK fehlt. Zuerst npm run setup ausführen.');
+run(process.execPath,[sdkCli,'build',app]);
+const require=createRequire(sdkCli);
+const {build}=require('esbuild');
+await build({entryPoints:[join(app,'draw.ts')],bundle:true,format:'esm',outfile:join(root,'preview','draw.mjs')});
+console.log('Widget, Renderer und Designvorschau neu gebaut.');

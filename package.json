@@ -1,0 +1,15 @@
+{
+  "name": "loop-flow-nexus",
+  "version": "1.3.2",
+  "private": true,
+  "type": "module",
+  "description": "Loop Flow – HYTE Nexus Widget und Codex-Übergabe",
+  "engines": { "node": ">=22.18.0" },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "build": "node scripts/build.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node scripts/test.mjs",
+    "preview": "node scripts/preview.mjs"
+  }
+}

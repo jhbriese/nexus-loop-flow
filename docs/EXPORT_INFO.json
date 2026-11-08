@@ -1,0 +1,17 @@
+{
+  "export_date": "2026-11-06",
+  "widget_version": "1.2.0",
+  "target_nexus": "3.1.8",
+  "source_release_sha256": "7df39a702527003d2c4e198953855f4880a1ac275a3b95d04e1fb613104d80c6",
+  "upstream_nexus_commit": "edcec8541600d5ac934175b681297aa272500cff",
+  "upstream_web_commit": "d5e5c1dcb34682458604540826bc39a20b03c9e8",
+  "verified_commands": [
+    "npm run setup",
+    "npm run build",
+    "npm run validate",
+    "npm test",
+    "preview HTTP smoke test"
+  ],
+  "tests_passed": 5,
+  "verification_environment": "Linux, Node.js 24.22.1; Windows/Nexus hardware not retested during export"
+}
